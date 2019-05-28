@@ -1,0 +1,72 @@
+
+
+body{
+  background-color: #48d1cc;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media  screen and (max-width: 767px)  {
+  .all_icon{
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .all_icon{
+    text-align: center;
+    margin-top: 300px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2000px) {
+  .all_icon{
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+
+
+.put_icon {
+  border: none;
+  padding: 150px auto;
+}
+
+.put_icon img{
+  width: 100%
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.put_icon img:hover{
+  transform: scale(1.2);
+  rotate(9deg);
+  transition-duration: 0.5s;
+}
+
+
+.me{
+  margin-top: 100px;
+  color: #000;
+  display: inline-block;
+  padding: 0 15%;
+}
+
+
+.portfolio{
+  color: #000;
+  display: inline-block;
+  padding: 10% 15% 0 15%;
+}
+
+
+
+
+
+

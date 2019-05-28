@@ -1,0 +1,7 @@
+
+@media screen and (max-width: 750px){
+  .space{
+    width:100%;
+    display: block;
+  }
+}
